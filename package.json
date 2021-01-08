@@ -1,8 +1,8 @@
 {
   "name": "webpack-bundle-analyzer",
-  "version": "4.3.0",
-  "description": "Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap",
-  "author": "Yury Grunin <grunin.ya@ya.ru>",
+  "version": "4.3.0-vishnupatch",
+  "description": "this is a patch of Webpack plugin and CLI utility, removed @types/node from package.lock.json coz this pkg is causing a memory leak.",
+  "author": "vishnu-sankar",
   "license": "MIT",
   "homepage": "https://github.com/webpack-contrib/webpack-bundle-analyzer",
   "changelog": "https://github.com/webpack-contrib/webpack-bundle-analyzer/blob/master/CHANGELOG.md",
@@ -14,7 +14,9 @@
     "url": "git+https://github.com/webpack-contrib/webpack-bundle-analyzer.git"
   },
   "main": "lib/index.js",
-  "bin": "lib/bin/analyzer.js",
+  "bin": {
+    "webpack-bundle-analyzer-centro-patch": "lib/bin/analyzer.js"
+  },
   "engines": {
     "node": ">= 10.13.0"
   },
@@ -99,5 +101,8 @@
     "treemap",
     "zoomable",
     "zoom"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  }
 }
