@@ -1,17 +1,17 @@
 {
   "name": "webpack-bundle-analyzer-centro-patch",
-  "version": "4.3.2-vishnupatch",
+  "version": "4.3.3-vishnupatch",
   "description": "this is a patch of Webpack plugin and CLI utility, removed @types/node from package.lock.json coz this pkg is causing a memory leak.",
   "author": "vishnu-sankar",
   "license": "MIT",
-  "homepage": "https://github.com/vishnu-meera/webpack-bundle-analyzer-patch",
-  "changelog": "https://github.com/vishnu-meera/webpack-bundle-analyzer-patch/blob/master/CHANGELOG.md",
+  "homepage": "https://github.com/vishnu-meera/webpack-bundle-analyzer-centro-patch",
+  "changelog": "https://github.com/vishnu-meera/webpack-bundle-analyzer-centro-patch/blob/master/CHANGELOG.md",
   "bugs": {
-    "url": "https://github.com/vishnu-meera/webpack-bundle-analyzer-patch/issues"
+    "url": "https://github.com/vishnu-meera/webpack-bundle-analyzer-centro-patch/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vishnu-meera/webpack-bundle-analyzer-patch.git"
+    "url": "git+https://github.com/vishnu-meera/webpack-bundle-analyzer-centro-patch.git"
   },
   "main": "lib/index.js",
   "bin": {
