@@ -1,5 +1,5 @@
 {
-  "name": "webpack-bundle-analyzer",
+  "name": "webpack-bundle-analyzer-centro-patch",
   "version": "4.3.0-vishnupatch",
   "description": "this is a patch of Webpack plugin and CLI utility, removed @types/node from package.lock.json coz this pkg is causing a memory leak.",
   "author": "vishnu-sankar",
